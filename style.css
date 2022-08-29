@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+    align-content: center;
+}
+
+.title {
+    border: solid 2px black;
+    text-align: center;
+    padding: 20px;
+}
+
+.scoreBoard {
+    display: flex;
+    border: solid 2px black;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.scores {
+    border: solid 2px black;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gameScore,
+.highScore,
+.countDown {
+    width: 100px;
+    height: 50px;
+    border: solid 2px black;
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gameBoard {
+    height: 200px;
+    border: solid 3px black;
+    margin: 50px;
+}
+
+.startButton {
+    width: 150px;
+    height: 50px;
+    margin-left: 45%;
+    /* visibility: visible; */
+}
